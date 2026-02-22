@@ -1,19 +1,8 @@
-# --- Build Outputs ---
-# The compiled executable
 copyFile
 
-# Debug symbols (the .dSYM folder)
 *.dSYM/
 
-# --- CMake / IDE (CLion) ---
-# The build directory where CMake stores intermediate files
 cmake-build-debug/
 cmake-build-release/
 
-# --- OS Specific ---
-# macOS system files
 .DS_Store
-
-# --- User Files ---
-# If you don't want your test data on GitHub, uncomment the next line:
-# test-file.txt
